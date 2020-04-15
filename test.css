@@ -70,7 +70,7 @@ hr {
 }
 
 .title {
-  color: hsla(20, 75%, 88%, 0.979);
+  color: hsla(20, 75%, 89%, 0.979);
   letter-spacing: 0.45rem;
   font-family: "Rock Salt", cursive;
 
@@ -145,18 +145,17 @@ a:hover {
   }
 
   .pearson {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     margin-top: 14%;
   }
 
   .arson {
     font-size: 2.6rem;
-    letter-spacing: 0.6rem;
-    margin-bottom: 10%;
+    letter-spacing: 0.73rem;
   }
 
   .title {
-    font-size: 3.3rem;
+    font-size: 3.2rem;
     margin-bottom: 20%;
     margin-top: 10%;
     line-height: 4.5rem;
@@ -183,7 +182,7 @@ a:hover {
   }
 
   hr {
-    width: 64%;
+    width: 70%;
   }
 }
 
