@@ -70,7 +70,7 @@ hr {
 }
 
 .title {
-  color: hsla(20, 75%, 86%, 0.979);
+  color: hsla(20, 75%, 88%, 0.979);
   letter-spacing: 0.45rem;
   font-family: "Rock Salt", cursive;
 
@@ -159,7 +159,7 @@ a:hover {
     font-size: 3.3rem;
     margin-bottom: 20%;
     margin-top: 10%;
-    line-height: 4rem;
+    line-height: 4.5rem;
   }
 
   .questions {
@@ -203,6 +203,7 @@ a:hover {
   .title {
     font-size: 2.7rem;
     margin-bottom: 10%;
+    line-height: 3.8rem;
   }
 
   form {
