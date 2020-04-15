@@ -26,7 +26,7 @@ body {
 
 hr {
   width: 49%;
-  background: #fff;
+  background: hsl(20, 80%, 90%);
 }
 
 .wrapper {
@@ -39,26 +39,6 @@ hr {
   position: relative;
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAG0lEQVQYV2NkYGD4z8DAwMgABXAGNgGwSgwVAFbmAgXQdISfAAAAAElFTkSuQmCC");
 }
-
-/* .wrapper:after {
-  content: " ";
-  display: block;
-  position: absolute;
-  right: 48.5%;
-  top: 22%;
-  width: 13%;
-  height: 21%;
-  z-index: -1;
-  opacity: 0.4;
-  background-image: url("img/PEARSON3.png");
-  background-repeat: no-repeat;
-  background-position: 50% 0;
-  -ms-background-size: cover;
-  -o-background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  background-size: cover; 
-} */
 
 .brand {
   justify-self: center;
@@ -93,10 +73,10 @@ hr {
 }
 
 .title {
-  color: hsl(20, 76%, 91%);
+  color: hsl(20, 80%, 90%);
   letter-spacing: 0.45rem;
   font-family: "Rock Salt", cursive;
-  text-shadow: 7px 4px 3px #1d0c06b7;
+
   margin-bottom: 10%;
   margin-top: 4%;
   font-size: 4.6rem;
@@ -147,18 +127,6 @@ a:hover {
   text-decoration: none;
 }
 
-@keyframes titleGrow {
-  0% {
-    opacity: 0.8;
-    transform: scale(0);
-  }
-
-  100% {
-    opacity: 0.95;
-    transform: scale(1);
-  }
-}
-
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -201,21 +169,45 @@ a:hover {
   }
 
   form {
-    margin-bottom: 10%;
+    margin-bottom: 20%;
   }
 
   form p {
-    font-size: 1rem;
+    font-size: 1.2rem;
     width: 100%;
     margin-bottom: 7%;
   }
 
   button {
-    width: 25%;
+    width: 24%;
     margin-top: 3%;
   }
 
   hr {
     width: 64%;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .wrapper {
+    margin-top: 17%;
+  }
+
+  .brand {
+    padding: 16%;
+  }
+
+  .title {
+    font-size: 3rem;
+  }
+
+  form p {
+    font-size: 1.1rem;
+    width: 100%;
+    margin-bottom: 7%;
+  }
+
+  button {
+    width: 28%;
   }
 }
