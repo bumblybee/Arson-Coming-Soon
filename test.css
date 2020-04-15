@@ -68,7 +68,7 @@ hr {
 }
 
 .title {
-  color: hsla(20, 78%, 88%, 0.979);
+  color: hsla(20, 75%, 86%, 0.979);
   letter-spacing: 0.45rem;
   font-family: "Rock Salt", cursive;
 
@@ -139,16 +139,13 @@ a:hover {
 }
 
 @media only screen and (max-width: 420px) {
-  .wrapper {
-    margin-top: 7%;
-  }
-
   .brand {
     padding: 16%;
   }
 
   .pearson {
     font-size: 1.4rem;
+    margin-top: 14%;
   }
 
   .arson {
@@ -189,10 +186,6 @@ a:hover {
 }
 
 @media only screen and (max-width: 360px) {
-  .wrapper {
-    margin-top: 7%;
-  }
-
   .brand {
     padding: 15%;
   }
