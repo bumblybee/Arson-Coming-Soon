@@ -140,29 +140,29 @@ a:hover {
 
 @media only screen and (max-width: 420px) {
   .brand {
-    padding: 10%;
+    padding: 0 10% 0;
   }
 
   .pearson {
     font-size: 1.4rem;
     margin-bottom: 0;
+    margin-top: -8%;
   }
 
   .arson {
-    font-size: 2.47rem;
+    font-size: 2.5rem;
     letter-spacing: 0.73rem;
     line-height: 2.5rem;
   }
 
   hr {
-    width: 63%;
-    margin-bottom: 16%;
+    width: 58%;
+    margin-bottom: 15%;
   }
 
   .title {
     font-size: 3.4rem;
     margin-bottom: 15%;
-    margin-top: 12%;
     line-height: 4.4rem;
   }
 
@@ -176,9 +176,9 @@ a:hover {
   }
 
   form p {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     width: 98%;
-    margin-bottom: 8%;
+    margin-bottom: 5%;
   }
 
   button {
@@ -189,11 +189,12 @@ a:hover {
 
 @media only screen and (max-width: 360px) {
   .brand {
-    padding: 15%;
+    padding: 5% 15% 5%;
   }
 
   .pearson {
     font-size: 1.2rem;
+    margin-top: 2%;
   }
 
   .arson {
@@ -207,11 +208,11 @@ a:hover {
   }
 
   form {
-    margin-bottom: 7%;
+    margin-bottom: 8%;
   }
 
   form p {
-    font-size: 1rem;
+    font-size: 1.1rem;
     width: 88%;
     margin-bottom: 5%;
   }
