@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* Unica One */
+  position: fixed;
+  font-family: "Arimo", sans-serif;
+  color: hsl(18, 45%, 93%);
+  height: 100vh;
+  width: 100vw;
+  overflow: auto;
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.92),
+      rgba(31, 9, 3, 0.782)
+    ),
+    url("https://images.unsplash.com/photo-1560698711-6df2370d7d62?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=60");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+hr {
+  width: 49%;
+  background: #fff;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: minmax(200px, auto);
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAG0lEQVQYV2NkYGD4z8DAwMgABXAGNgGwSgwVAFbmAgXQdISfAAAAAElFTkSuQmCC");
+}
+
+/* .wrapper:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  right: 48.5%;
+  top: 22%;
+  width: 13%;
+  height: 21%;
+  z-index: -1;
+  opacity: 0.4;
+  background-image: url("img/PEARSON3.png");
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover; 
+} */
+
+.brand {
+  justify-self: center;
+  /* animation: titleGrow 1.3s ease-in-out 0.1s;
+  animation-fill-mode: backwards; */
+}
+
+.pearson {
+  background: -webkit-linear-gradient(#e4c6ba, hsl(20, 76%, 93%));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.9rem;
+  letter-spacing: 0.8rem;
+  /* text-shadow: 1px 2px #58575681; */
+  animation-fill-mode: backwards;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.arson {
+  background: -webkit-linear-gradient(#e4c6ba, hsl(20, 76%, 93%));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2.9rem;
+  text-transform: uppercase;
+  /* text-shadow: 1px 2px #b6b2b2da; */
+
+  letter-spacing: 0.5rem;
+  font-weight: bold;
+  animation-fill-mode: backwards;
+  margin-bottom: 5%;
+}
+
+.title {
+  color: hsl(20, 76%, 91%);
+  letter-spacing: 0.45rem;
+  font-family: "Rock Salt", cursive;
+  text-shadow: 7px 4px 3px #1d0c06b7;
+  margin-bottom: 10%;
+  margin-top: 4%;
+  font-size: 4.6rem;
+  animation: fadeIn 2s ease-in-out;
+  animation-fill-mode: backwards;
+}
+
+button {
+  display: inline-block;
+  background: #a84213;
+  color: hsl(18, 45%, 92%);
+  border: 1px solid #b84214;
+  border-radius: 4px;
+  padding: 2%;
+  width: 20%;
+  margin-left: 1%;
+}
+
+form input {
+  background: transparent;
+  border: 2px solid rgba(250, 250, 250, 0.445);
+  padding: 1.9%;
+  display: inline-block;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+form p {
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.6);
+  width: 75%;
+  margin-bottom: 3%;
+}
+
+.questions {
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.questions:hover {
+  color: #cfbfb9;
+}
+
+a {
+  color: rgba(255, 255, 255, 0.6);
+  padding: 0.1rem;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+@keyframes titleGrow {
+  0% {
+    opacity: 0.8;
+    transform: scale(0);
+  }
+
+  100% {
+    opacity: 0.95;
+    transform: scale(1);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .brand {
+    padding: 18%;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .brand {
+    padding: 14%;
+  }
+
+  .pearson {
+    font-size: 1.4rem;
+  }
+
+  .arson {
+    font-size: 2.5rem;
+    letter-spacing: 0.72rem;
+    margin-bottom: 10%;
+  }
+
+  .title {
+    font-size: 3.3rem;
+    margin-bottom: 20%;
+    margin-top: 10%;
+  }
+
+  .questions {
+    font-size: 0.95rem;
+  }
+
+  form {
+    margin-bottom: 10%;
+  }
+
+  form p {
+    font-size: 1rem;
+    width: 100%;
+    margin-bottom: 7%;
+  }
+
+  button {
+    width: 25%;
+    margin-top: 3%;
+  }
+
+  hr {
+    width: 64%;
+  }
+}
