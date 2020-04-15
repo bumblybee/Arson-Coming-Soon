@@ -140,7 +140,7 @@ a:hover {
 
 @media only screen and (max-width: 420px) {
   .brand {
-    padding: 16%;
+    padding: 14%;
   }
 
   .pearson {
@@ -157,7 +157,7 @@ a:hover {
     font-size: 3.3rem;
     margin-bottom: 20%;
     margin-top: 10%;
-    line-height: 4.5rem;
+    line-height: 4.4rem;
   }
 
   .questions {
@@ -182,7 +182,7 @@ a:hover {
 
   hr {
     width: 70%;
-    margin-bottom: 20%;
+    margin-bottom: 16%;
   }
 }
 
