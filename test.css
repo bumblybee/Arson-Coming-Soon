@@ -51,7 +51,6 @@ hr {
   -webkit-text-fill-color: transparent;
   font-size: 1.9rem;
   letter-spacing: 0.8rem;
-  animation-fill-mode: backwards;
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -66,7 +65,7 @@ hr {
   letter-spacing: 0.5rem;
   font-weight: bold;
   animation-fill-mode: backwards;
-  margin-bottom: 5%;
+  margin-bottom: 4%;
 }
 
 .title {
@@ -146,16 +145,18 @@ a:hover {
 
   .pearson {
     font-size: 1.5rem;
-    margin-top: 14%;
+    margin-top: 6%;
+    line-height: 1.2rem;
   }
 
   .arson {
     font-size: 2.6rem;
-    letter-spacing: 0.73rem;
+    letter-spacing: 0.74rem;
+    line-height: 2.4rem;
   }
 
   .title {
-    font-size: 3.2rem;
+    font-size: 3.3rem;
     margin-bottom: 20%;
     margin-top: 10%;
     line-height: 4.5rem;
@@ -183,6 +184,7 @@ a:hover {
 
   hr {
     width: 70%;
+    margin-bottom: 15%;
   }
 }
 
