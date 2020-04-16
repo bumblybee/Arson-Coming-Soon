@@ -244,11 +244,11 @@ a:hover {
     padding: 10%;
   }
   .pearson {
-    margin-top: -2%;
+    margin-top: -5%;
   }
 
   .arson {
-    line-height: 2.5rem;
+    line-height: 2.6rem;
     letter-spacing: 0.4rem;
     margin-bottom: 4%;
   }
@@ -264,6 +264,7 @@ a:hover {
 
   form p {
     margin-bottom: 5%;
+    width: 90%;
   }
 
   .questions {
@@ -272,14 +273,12 @@ a:hover {
 
   hr {
     width: 67%;
-    margin-bottom: 8%;
   }
 }
 
 @media screen and (max-width: 750px) and (orientation: landscape) {
   hr {
     width: 77%;
-    margin-bottom: 10%;
   }
 
   .coming {
