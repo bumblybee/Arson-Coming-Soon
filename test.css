@@ -234,10 +234,10 @@ a:hover {
 
 @media screen and (max-width: 825px) and (orientation: landscape) {
   .brand {
-    padding: 8%;
+    padding: 10%;
   }
   .pearson {
-    margin-top: 53%;
+    margin-top: 68%;
   }
 
   .arson {
