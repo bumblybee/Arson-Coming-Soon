@@ -76,7 +76,7 @@ hr {
   font-family: "Rock Salt", cursive;
 
   margin-bottom: 10%;
-  margin-top: 4%;
+
   font-size: 4.6rem;
   animation: fadeIn 2s ease-in-out 0.2s;
   animation-fill-mode: backwards;
@@ -260,6 +260,10 @@ a:hover {
 
   form {
     margin-bottom: 3%;
+  }
+
+  form p {
+    margin-bottom: 5%;
   }
 
   .questions {
