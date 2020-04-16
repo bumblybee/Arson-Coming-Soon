@@ -7,7 +7,7 @@
 body {
   font-family: "Arimo", sans-serif;
   color: hsl(18, 45%, 93%);
-  min-height: 100vh;
+  height: 100vh;
   width: 100vw;
   overflow: auto;
   background: linear-gradient(
@@ -20,6 +20,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  scroll-behavior: smooth;
 }
 
 hr {
