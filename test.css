@@ -46,7 +46,7 @@ hr {
 }
 
 .pearson {
-  background: -webkit-linear-gradient(#c29487, hsl(20, 76%, 89%, 0.95));
+  background: -webkit-linear-gradient(#e2b296, hsl(20, 76%, 89%, 0.95));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -57,7 +57,7 @@ hr {
 }
 
 .arson {
-  background: -webkit-linear-gradient(#c29487, hsl(20, 76%, 89%, 0.95));
+  background: -webkit-linear-gradient(#dab3a9, hsl(20, 76%, 89%, 0.95));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
