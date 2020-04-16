@@ -26,7 +26,7 @@ body {
 hr {
   height: 0.6px;
   width: 47%;
-  background: hsla(20, 76%, 89%, 0.9);
+  background: hsla(20, 80%, 87%, 0.9);
   margin-bottom: 10%;
 }
 
@@ -145,7 +145,7 @@ a:hover {
   }
 
   .pearson {
-    font-size: 1.52rem;
+    font-size: 1.5rem;
     margin-bottom: 0;
     margin-top: -8%;
   }
