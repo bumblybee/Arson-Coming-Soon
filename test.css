@@ -93,7 +93,7 @@ hr {
 }
 
 .coming {
-  color: hsla(20, 75%, 86%, 0.9);
+  color: hsla(20, 75%, 86%, 0.89);
   letter-spacing: 0.45rem;
   font-family: "Rock Salt", cursive;
 
@@ -205,14 +205,14 @@ a:hover {
 
 @media only screen and (max-width: 420px) {
   .pearson {
-    font-size: 2rem;
-    letter-spacing: 0.72rem;
+    font-size: 2.2rem;
+    letter-spacing: 0.7rem;
     margin-bottom: 0;
     margin-top: -15%;
   }
 
   .arson {
-    font-size: 3.2rem;
+    font-size: 3.4rem;
     letter-spacing: 0.72rem;
     line-height: 2.8rem;
     margin-bottom: 20%;
