@@ -62,7 +62,7 @@ hr {
   /* animation: fadeIn 0.05s ease-in-out;
   animation-fill-mode: backwards; */
 
-  animation: fadeIn 0.2s 0.1s, flicker 0.4s ease-in 0.62s;
+  animation: fadeIn 0.3s 0.1s, flicker 0.4s ease-in 0.62s;
 }
 
 .arson {
