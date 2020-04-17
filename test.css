@@ -13,14 +13,14 @@ body {
   background: linear-gradient(
       to right,
       rgba(0, 0, 0, 0.92),
-      rgba(31, 9, 3, 0.82)
+      rgba(31, 9, 3, 0.88)
     ),
     url("https://images.unsplash.com/photo-1560698711-6df2370d7d62?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=60");
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
 }
 
 hr {
@@ -43,55 +43,88 @@ hr {
 
 .brand {
   justify-self: center;
+  backface-visibility: hidden;
 }
 
 .pearson {
-  background: -webkit-linear-gradient(#e2b296, hsl(20, 76%, 89%, 0.95));
+  background: -webkit-linear-gradient(#eca593, hsl(20, 76%, 89%, 0.95));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 2.3rem;
-  letter-spacing: 0.6rem;
+  font-size: 2.7rem;
+  letter-spacing: 0.36rem;
   text-transform: uppercase;
   font-weight: bold;
-  margin-top: 15%;
+  margin-top: 10%;
+
+  text-shadow: 0 0 10px #eea178, 0 0 20px #eea178, 0 0 30px #eea178,
+    0 0 40px #e24110, 0 0 70px #e24110, 0 0 80px #e24110, 0 0 100px #e24110,
+    0 0 150px #e24110;
+  /* animation: fadeIn 0.05s ease-in-out;
+  animation-fill-mode: backwards; */
+
+  animation: fadeIn 0.1s, flicker 0.42s ease-in 0.62s;
 }
 
 .arson {
-  background: -webkit-linear-gradient(#dab3a9, hsl(20, 76%, 89%, 0.95));
+  background: -webkit-linear-gradient(#eca593, hsl(20, 76%, 90%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 3.3rem;
+  font-size: 4rem;
   text-transform: uppercase;
   letter-spacing: 0.4rem;
   font-weight: bold;
-  animation-fill-mode: backwards;
-  margin-bottom: 2%;
-  line-height: 2.5rem;
+  margin-bottom: 10%;
+  line-height: 3rem;
+
+  text-shadow: 0 0 10px #eea178, 0 0 20px #eea178, 0 0 30px #eea178,
+    0 0 40px #e24110, 0 0 70px #e24110, 0 0 80px #e24110, 0 0 100px #e24110,
+    0 0 150px #e24110;
+
+  animation: flicker 0.4s ease-in 0.62s;
+}
+
+.arson-span {
+  animation: fadeIn 0.45s ease-out;
+  /* animation-fill-mode: backwards; */
+}
+
+.sauce-span {
+  animation: fadeIn 0.45s ease-out 0.1s;
 }
 
 .coming {
-  color: hsla(20, 75%, 89%, 0.9);
+  color: hsla(20, 75%, 86%, 0.9);
   letter-spacing: 0.45rem;
   font-family: "Rock Salt", cursive;
 
   margin-bottom: 10%;
 
   font-size: 4.6rem;
-  animation: fadeIn 2s ease-in-out 0.2s;
-  animation-fill-mode: backwards;
 }
 
 button {
   display: inline-block;
-  background: #a84213;
+  background: linear-gradient(#a84213, #a73c12);
   color: hsl(18, 45%, 92%);
-  border: 1px solid #b84214;
+  border: 1px solid #a84213;
   border-radius: 4px;
   padding: 2%;
   width: 20%;
   margin-left: 1%;
+}
+
+button:hover {
+  background: #c75018;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+button:focus {
+  outline: none;
 }
 
 form input {
@@ -100,6 +133,11 @@ form input {
   padding: 1.9%;
   display: inline-block;
   color: rgba(255, 255, 255, 0.6);
+}
+
+form input:focus {
+  outline: none;
+  border-color: hsl(18, 45%, 88%, 0.8);
 }
 
 form p {
@@ -114,7 +152,7 @@ form p {
 }
 
 .questions:hover {
-  color: #cfbfb9;
+  color: hsl(18, 45%, 88%, 0.9);
 }
 
 a {
@@ -135,6 +173,28 @@ a:hover {
   }
 }
 
+@keyframes flicker {
+  0% {
+    opacity: 1;
+  }
+
+  25% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  75% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .brand {
     padding: 0 10% 0;
@@ -147,19 +207,20 @@ a:hover {
 
 @media only screen and (max-width: 420px) {
   .pearson {
-    font-size: 1.55rem;
-    letter-spacing: 0.68rem;
+    font-size: 1.66rem;
+    letter-spacing: 0.73rem;
     margin-bottom: 0;
-    margin-top: 2%;
+    margin-top: -15%;
   }
 
   .arson {
-    font-size: 2.5rem;
+    font-size: 2.7rem;
     letter-spacing: 0.72rem;
     line-height: 2.5rem;
+    margin-bottom: 20%;
   }
 
-  .arson span {
+  .sauce-span {
     letter-spacing: 0.8rem;
   }
 
@@ -245,13 +306,13 @@ a:hover {
     padding: 10%;
   }
   .pearson {
-    margin-top: -5%;
+    margin-top: -2%;
   }
 
   .arson {
-    line-height: 2.6rem;
+    line-height: 3rem;
     letter-spacing: 0.4rem;
-    margin-bottom: 4%;
+    margin-bottom: 15%;
   }
 
   .coming {
