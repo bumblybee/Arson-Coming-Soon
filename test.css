@@ -44,6 +44,7 @@ hr {
 .brand {
   justify-self: center;
   backface-visibility: hidden;
+  transform-style: preserve-3d;
 }
 
 .pearson {
@@ -62,7 +63,7 @@ hr {
   /* animation: fadeIn 0.05s ease-in-out;
   animation-fill-mode: backwards; */
 
-  animation: fadeIn 0.1s, flicker 0.4s ease-in 0.62s;
+  animation: fadeIn 0.2s 0.1s, flicker 0.4s ease-in 0.62s;
 }
 
 .arson {
@@ -84,12 +85,12 @@ hr {
 }
 
 .arson-span {
-  animation: fadeIn 0.45s ease-out;
+  animation: fadeIn 0.45s ease-out 0.2s;
   /* animation-fill-mode: backwards; */
 }
 
 .sauce-span {
-  animation: fadeIn 0.45s ease-out 0.1s;
+  animation: fadeIn 0.45s ease-out 0.4s;
 }
 
 .coming {
