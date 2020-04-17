@@ -58,12 +58,12 @@ hr {
   margin-top: 10%;
 
   text-shadow: 0 0 10px #eea178, 0 0 20px #eea178, 0 0 30px #eea178,
-    0 0 40px #e24110, 0 0 70px #e24110, 0 0 80px #e24110, 0 0 100px #e24110,
-    0 0 150px #e24110;
+    0 0 40px #ce350f, 0 0 70px #ce350f, 0 0 80px #ce350f, 0 0 100px #ce350f,
+    0 0 150px #ce350f;
   /* animation: fadeIn 0.05s ease-in-out;
   animation-fill-mode: backwards; */
 
-  animation: fadeIn 0.1s, flicker 0.42s ease-in 0.62s;
+  animation: fadeIn 0.1s, flicker 0.4s ease-in 0.62s;
 }
 
 .arson {
@@ -79,8 +79,8 @@ hr {
   line-height: 3rem;
 
   text-shadow: 0 0 10px #eea178, 0 0 20px #eea178, 0 0 30px #eea178,
-    0 0 40px #e24110, 0 0 70px #e24110, 0 0 80px #e24110, 0 0 100px #e24110,
-    0 0 150px #e24110;
+    0 0 40px #c0370d, 0 0 70px #c0370d, 0 0 80px #c0370d, 0 0 100px #c0370d,
+    0 0 150px #c0370d;
 
   animation: flicker 0.4s ease-in 0.62s;
 }
@@ -207,14 +207,14 @@ a:hover {
 
 @media only screen and (max-width: 420px) {
   .pearson {
-    font-size: 1.66rem;
+    font-size: 1.8rem;
     letter-spacing: 0.73rem;
     margin-bottom: 0;
     margin-top: -15%;
   }
 
   .arson {
-    font-size: 2.7rem;
+    font-size: 2.9rem;
     letter-spacing: 0.72rem;
     line-height: 2.5rem;
     margin-bottom: 20%;
