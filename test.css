@@ -6,10 +6,10 @@
 
 body {
   font-family: "Arimo", sans-serif;
-  color: hsl(18, 45%, 93%);
   height: 100vh;
   width: 100vw;
   overflow: auto;
+
   background: linear-gradient(
       to right,
       rgba(0, 0, 0, 0.93),
@@ -22,18 +22,19 @@ body {
   background-position: center;
 }
 
-hr {
+/* hr {
   height: 0.7px;
   width: 47.3%;
   background: hsla(20, 80%, 87%, 0.9);
   margin-bottom: 10%;
-}
+} */
 
 .wrapper {
   display: grid;
   grid-template-columns: 1fr;
   grid-auto-rows: minmax(200px, auto);
   align-items: center;
+
   height: 100vh;
   width: 100vw;
 
@@ -47,34 +48,26 @@ hr {
 }
 
 .pearson {
-  /* background: -webkit-linear-gradient(#eca593, hsl(20, 76%, 89%, 0.95));
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; */
+  margin-top: 10%;
+
   font-size: 2.7rem;
   letter-spacing: 0.36rem;
   text-transform: uppercase;
   font-weight: bold;
-  margin-top: 10%;
   color: hsl(20, 60%, 78%);
   text-shadow: 0 0 10px #eea178, 0 0 20px #eea178, 0 0 30px #eea178,
     0 0 40px #ce350f, 0 0 70px #ce350f, 0 0 80px #ce350f, 0 0 100px #ce350f;
-  /* animation: fadeIn 0.05s ease-in-out;
-  animation-fill-mode: backwards; */
 
   animation: fadeIn 0.3s 0.1s 2, flickerWord 0.6s linear 0.82s;
 }
 
 .arson {
-  /* background: -webkit-linear-gradient(#eca593, hsl(20, 76%, 90%));
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; */
+  margin-bottom: 10%;
+
   font-size: 4rem;
   text-transform: uppercase;
   letter-spacing: 0.4rem;
   font-weight: bold;
-  margin-bottom: 10%;
   line-height: 3rem;
   color: hsl(20, 60%, 77%);
   text-shadow: 0 0 10px #eea178, 0 0 20px #eea178, 0 0 30px #eea178,
@@ -96,25 +89,26 @@ hr {
 }
 
 .coming {
+  margin-bottom: 10%;
+
+  font-size: 4.6rem;
   color: hsla(20, 75%, 87%, 0.9);
   text-shadow: 0 -2px 8px #ff5e1e60;
   letter-spacing: 0.45rem;
   font-family: "Rock Salt", cursive;
-
-  margin-bottom: 10%;
-
-  font-size: 4.6rem;
 }
 
 button {
-  display: inline-block;
-  background: linear-gradient(#a84213, #a73c12);
-  color: hsl(18, 45%, 92%);
-  border: 1px solid #a84213;
-  border-radius: 4px;
+  margin-left: 1%;
   padding: 2%;
   width: 20%;
-  margin-left: 1%;
+
+  color: hsl(18, 45%, 92%);
+  display: inline-block;
+  background: linear-gradient(#a84213, #a73c12);
+
+  border: 1px solid #a84213;
+  border-radius: 4px;
 }
 
 button:hover {
@@ -130,11 +124,13 @@ button:focus {
 }
 
 form input {
+  display: inline-block;
+  padding: 1.9%;
+
+  color: rgba(255, 255, 255, 0.6);
+
   background: transparent;
   border: 2px solid rgba(250, 250, 250, 0.445);
-  padding: 1.9%;
-  display: inline-block;
-  color: rgba(255, 255, 255, 0.6);
 }
 
 form input:focus {
@@ -143,10 +139,11 @@ form input:focus {
 }
 
 form p {
-  font-size: 1.5rem;
-  color: rgba(255, 255, 255, 0.6);
   width: 72%;
   margin-bottom: 3%;
+
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .questions {
