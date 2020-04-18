@@ -54,9 +54,9 @@ body {
   letter-spacing: 0.36rem;
   text-transform: uppercase;
   font-weight: bold;
-  color: hsl(20, 60%, 80%);
+  color: #f7d49f;
   text-shadow: 0 0 10px #eea178, 0 0 20px #eea178, 0 0 30px #eea178,
-    0 0 40px #ce350f, 0 0 70px #ce350f, 0 0 80px #ce350f, 0 0 100px #050505;
+    0 0 40px #ce820f, 0 0 70px #ce820f, 0 0 80px #ce820f, 0 0 100px #ce820f;
 
   animation: fadeIn 0.3s 0.1s 2, flickerWord 0.6s linear 0.82s;
 }
@@ -76,7 +76,7 @@ body {
 .arson-span {
   color: hsl(20, 60%, 80%);
   text-shadow: 0 0 10px #eea178, 0 0 20px #eea178, 0 0 30px #eea178,
-    0 0 40px #c0370d, 0 0 70px #c0370d, 0 0 80px #c0370d, 0 0 100px #050505;
+    0 0 40px #c0370d, 0 0 70px #c0370d, 0 0 80px #c0370d, 0 0 100px #ce350f;
 }
 .sauce-span {
   animation: fadeIn 0.45s linear 1s;
