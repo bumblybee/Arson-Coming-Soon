@@ -111,9 +111,9 @@ button {
   padding: 2%;
   width: 20%;
 
-  color: hsl(20, 75%, 90%);
+  color: hsl(20, 75%, 90%, 0.93);
   display: inline-block;
-  background: linear-gradient(#fc7a46e0, #b94b18, #a3451aec);
+  background: linear-gradient(#fa8455e0, #cc5721, #a3451aec);
 
   border: none;
   border-radius: 4px;
