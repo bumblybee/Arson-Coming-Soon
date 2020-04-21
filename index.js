@@ -16,7 +16,7 @@ window.onload = function () {
 
 form.addEventListener("submit", (e) => {
   //when submitting form, set submitted to true in local storage
-  e.preventDefault();
+  // e.preventDefault();
   localStorage.setItem("submitted", true);
 
   //if submitted is true in local storage, remove form and add thanks for signing up
