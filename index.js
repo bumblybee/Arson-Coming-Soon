@@ -6,17 +6,20 @@ const pearson = document.getElementById("pearson");
 
 let clicks = 0;
 
-form.addEventListener("submit", (e) => {
-  //when submitting form, set submitted to true in local storage
-  // e.preventDefault();
-  localStorage.setItem("submitted", true);
-
-  //if submitted is true in local storage, remove form and add thanks for signing up
+window.onload = function () {
   if (JSON.parse(localStorage.getItem("submitted"))) {
     console.log("added");
     form.classList.add("hidden");
     thanks.classList.remove("hidden");
   }
+};
+
+form.addEventListener("submit", (e) => {
+  //when submitting form, set submitted to true in local storage
+  e.preventDefault();
+  localStorage.setItem("submitted", true);
+
+  //if submitted is true in local storage, remove form and add thanks for signing up
 });
 
 //Secret way to clear local storage and unlock form again
