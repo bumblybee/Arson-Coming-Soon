@@ -58,6 +58,7 @@
         <h2 class="coming"><span>Coming</span> Soon.</h2>
 
         <form
+          id="signup-form"
           name="arson-sign-up"
           method="POST"
           netlify-honeypot="bot-field"
@@ -79,7 +80,7 @@
               class="form-action rounded"
               placeholder="Email address"
             />
-            <button type="submit">Submit</button>
+            <button id="signup-button" type="submit">Submit</button>
           </div>
         </form>
 
@@ -88,6 +89,10 @@
             Questions or comments?
             <i class="fa fa-envelope fa-lg"></i></p
         ></a>
+
+        <h3 class="hidden thanks" id="thanks">
+          Thanks for signing up!
+        </h3>
       </div>
     </div>
 

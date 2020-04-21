@@ -171,6 +171,11 @@ a:hover {
   text-decoration: none;
 }
 
+.thanks {
+  margin-top: 15%;
+  color: hsl(20, 75%, 90%, 0.93);
+}
+
 /* ANIMATIONS */
 
 @keyframes fadeIn {
